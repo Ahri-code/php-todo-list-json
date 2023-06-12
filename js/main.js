@@ -3,12 +3,14 @@ const { createApp } = Vue
 createApp({
   data() {
     return {
-        x: 0
+        api: "api.php"
     }
   },
   methods: {
     press() {
-        console.log("Button pressed")
+        axios.get(this.api).then((response) => {
+            console.log("To do: ", response.data);
+        });
     }
   }
 }).mount('#app')
