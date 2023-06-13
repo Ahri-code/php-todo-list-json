@@ -1,0 +1,22 @@
+[
+    {
+        "do": "Pulire casa",
+        "done": false,
+        "del": false
+    },
+    {
+        "do": "Cucinare",
+        "done": false,
+        "del": false
+    },
+    {
+        "do": "Fare la spesa",
+        "done": false,
+        "del": false
+    },
+    {
+        "do": "Cambiare la lampadina",
+        "done": false,
+        "del": false
+    }
+]
