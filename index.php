@@ -12,9 +12,18 @@
 </head>
 <body>
     <div id="app">
-        <button>
-            Cliccami
-        </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1>To Do List</h1>
+                    <ul>
+                        <li v-for="item in toDoList">
+                            {{ item }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="./js/main.js"></script>
